@@ -8896,9 +8896,9 @@ preact-cli-plugin-netlify@^1.5.0:
   resolved "https://registry.yarnpkg.com/preact-cli-plugin-netlify/-/preact-cli-plugin-netlify-1.5.0.tgz#42317e60d76580c5e1928f670dac5c1abf91dd1b"
   integrity sha512-ImtsdZqEu6iHITlLkp5RDVrFmEDRPsINwhPQbjwk4eQAKxxZGqOSYIA3cQ15Hzp9Tew4GIf3ZM0hZ+VsPCWxRQ==
 
-preact-cli@^3.0.0-rc.6:
-  version "3.0.0-rc.7"
-  resolved "https://registry.yarnpkg.com/preact-cli/-/preact-cli-3.0.0-rc.7.tgz#a58ab88ae6d0fb13224bcc39566915ad27be379b"
+preact-cli@^3.0.0-rc.9:
+  version "3.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/preact-cli/-/preact-cli-3.0.0-rc.9.tgz#a58ab88ae6d0fb13224bcc39566915ad27be379b"
   integrity sha512-zhqZ+t7gvEtr8Tr6dxymMRgmz507eIvfXeZn7wtZXgwMa2kC1VUAnC8uL9QGNgiCimyGwVDPWBxiYE3Uwekkew==
   dependencies:
     "@babel/core" "^7.5.5"

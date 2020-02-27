@@ -8,8 +8,8 @@ class Subscriber extends Component {
 
         this.state = {
             error: null,
-            audio: true,
-            video: true
+            audio: false,
+            video: false
         };
     }
 
@@ -38,12 +38,12 @@ class Subscriber extends Component {
                     onError={this.onError}
                 />
                 <CheckBox
-                    label="Subscribe to Audio"
+                    label="Enable Guest Audio"
                     initialChecked={this.state.audio}
                     onChange={this.setAudio}
                 />
                 <CheckBox
-                    label="Subscribe to Video"
+                    label="Enable Guest Video"
                     initialChecked={this.state.video}
                     onChange={this.setVideo}
                 />

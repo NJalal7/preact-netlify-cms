@@ -8,8 +8,8 @@ class Publisher extends Component {
 
         this.state = {
             error: null,
-            audio: true,
-            video: true,
+            audio: false,
+            video: false,
             videoSource: "camera"
         };
     }

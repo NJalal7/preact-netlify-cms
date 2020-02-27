@@ -5,7 +5,7 @@ class ConnectionStatus extends Component {
         let status = this.props.connected ? "Connected" : "Disconnected";
         return (
             <div className="connectionStatus">
-                <strong>Status:</strong> {status}
+                <strong>Chat Status:</strong> {status}
             </div>
         );
     }

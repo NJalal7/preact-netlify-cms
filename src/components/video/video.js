@@ -34,9 +34,7 @@ class VideoComponent extends Component {
                 onError={this.onError}
             >
                 {this.state.error ? <div id="error">{this.state.error}</div> : null}
-
                 <ConnectionStatus connected={this.state.connected} />
-
                 <Publisher />
                 <OTStreams>
                     <Subscriber />

@@ -1,8 +1,16 @@
-# blog
+# How to Add Video Chat to Your Preact PWA using OpenTok 
 
-## CLI Commands
+Is becoming healthier one of your New Year's resolutions? This application will enable you to track your progress by enabling you to blog about daily activity, diet, energy levels, mood and more using Netlify CMS powered by Preact CLI. Share your app with any professionals you work with (personal trainer, nutritionist, therapist) and receive live video coaching directly from the platform using the OpenTok integration.
+
+## Build Instructions
+
+> **Important**: [Node.js](https://nodejs.org/en/) > V6.x is a minimum requirement.
 
 ``` bash
+
+# install Preact CLI globally from NPM
+npm i -g preact-cli
+
 # install dependencies
 npm install
 
@@ -30,9 +38,8 @@ For detailed explanation on how things work, checkout the [CLI Readme](https://g
 
 - Invite yourself to the Identity tab in Netlify console.
 
-- Accept the invite from you mail.
+- Accept the invite from your email inbox.
 
 - Done 👍🏻.
 
 *Note:* Go to `https://<your-domain>/admin` in order to access Netlify CMS.
-
